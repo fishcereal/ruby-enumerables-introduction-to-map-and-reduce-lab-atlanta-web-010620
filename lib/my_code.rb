@@ -48,7 +48,6 @@ def reduce_to_total(source,starting_point=0)
   if starting_point ==nil
     i = 0 
   end
-  grand_total = 0 
   while i < source.length do 
     grand_total+=source[i]
     i+=1 
