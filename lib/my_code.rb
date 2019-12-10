@@ -41,3 +41,9 @@ def map_to_square(source)
   end 
   return new_array
 end
+
+def reduce_to_total(source,starting_point) 
+  if starting_point == nil 
+    starting_point = 0 
+  end
+end 
