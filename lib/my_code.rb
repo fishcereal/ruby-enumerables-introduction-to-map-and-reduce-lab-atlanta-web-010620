@@ -42,8 +42,11 @@ def map_to_square(source)
   return new_array
 end
 
-def reduce_to_total(source,starting_point) 
-  if starting_point == nil 
-    starting_point = 0 
+def reduce_to_total(source,starting_point=0) 
+  i = starting_point 
+  grand_total = 0 
+  while i < source.length do 
+    grand_total+=source[i]
+    i+=1 
   end
 end 
