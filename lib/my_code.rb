@@ -54,3 +54,8 @@ def reduce_to_total(source,starting_point=0)
   end
   return grand_total
 end 
+
+
+def reduce_to_all_true(source) 
+
+end
