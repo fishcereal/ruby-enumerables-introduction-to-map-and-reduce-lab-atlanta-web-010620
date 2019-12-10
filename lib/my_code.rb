@@ -63,6 +63,7 @@ def reduce_to_all_true(source)
    if source[i] == false 
      return false 
    end 
+   i+=1 
  end 
  return true 
 end
