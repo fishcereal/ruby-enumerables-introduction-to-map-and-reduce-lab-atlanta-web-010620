@@ -43,7 +43,11 @@ def map_to_square(source)
 end
 
 def reduce_to_total(source,starting_point=0) 
-  i = starting_point 
+  if starting_point !=nil
+    i = 0 
+  else 
+    i = starting_point 
+  end
   grand_total = 0 
   while i < source.length do 
     grand_total+=source[i]
