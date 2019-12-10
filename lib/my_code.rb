@@ -43,10 +43,10 @@ def map_to_square(source)
 end
 
 def reduce_to_total(source,starting_point=0) 
-  if starting_point !=nil
-    i = starting_point 
-  else 
+  i = starting_point 
+  if starting_point ==nil
     i = 0 
+  else 
   end
   grand_total = 0 
   while i < source.length do 
