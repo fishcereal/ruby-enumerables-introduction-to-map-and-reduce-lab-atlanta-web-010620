@@ -45,7 +45,7 @@ end
 def reduce_to_total(source,starting_point=0) 
   i = starting_point 
   grand_total = 0 
-  if starting_point ==nil
+  if starting_point == nil
     i = 0 
   end
   while i < source.length do 
