@@ -51,4 +51,5 @@ def reduce_to_total(source,starting_point=0)
     grand_total+=source[i]
     i+=1 
   end
+  return grand_total
 end 
