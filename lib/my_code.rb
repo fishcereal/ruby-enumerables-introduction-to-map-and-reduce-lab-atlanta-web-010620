@@ -6,4 +6,5 @@ def map_to_negativize(source)
     new_array.push(source[i]*-1)
     i+=1 
   end 
+  return new_array
 end
